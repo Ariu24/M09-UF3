@@ -11,10 +11,14 @@ public class ClientXat extends Thread {
     private ObjectInputStream ois;
     private boolean sortir;
     
+
+    
     public ClientXat() {
         this.sortir = false;
     }
-    
+
+
+
     public void connecta() {
         try {
             socket = new Socket(ServidorXat.HOST, ServidorXat.PORT);
