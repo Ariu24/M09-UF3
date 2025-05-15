@@ -133,6 +133,7 @@ public class ClientXat extends Thread {
         
         return linea;
     }
+
     
     public static void main(String[] args) {
         ClientXat client = new ClientXat();
